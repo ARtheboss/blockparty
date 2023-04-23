@@ -1,0 +1,40 @@
+.scroll-down{
+  text-align: center;
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+  cursor: pointer;
+  transition: opacity 0.5s linear;
+}
+.scroll-down .icon{
+  font-size: 30px;
+}
+.announcements{
+  position: absolute;
+  max-width: 800px;
+  width: 60%;
+  left:0;
+  right:0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 100vh;
+  height: calc(100vh - 160px);
+}
+.announcement{
+  display: flex;
+  margin-bottom: 20px;
+}
+.host-info{
+  flex: 40%;
+  text-align: center;
+  color: #ED1C25;
+}
+.host-info img{
+  width: 40%;
+  height: auto;
+}
+.announcement-content{
+  flex: 60%;
+  background: lightgray;
+  padding: 10px;
+}

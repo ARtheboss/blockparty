@@ -1,0 +1,60 @@
+.search-result-cont{
+    position: absolute;
+    left: 50%;
+    top: 200px;
+    transform: translate(-50%, 0);
+    display: flex;
+    min-width: 700px;
+    width: 60%;
+}
+.search-result-item{
+    flex: 25%;
+    text-align: center;
+    border-right: solid black 2px;
+}
+.search-result-item.last{
+    border-right: none;
+}
+.search-result-item h2{
+    font-size: 30px;
+}
+.search-result-item h2{
+    font-size: 25px;
+}
+.search-result-item img{
+    height: 50px;
+    width: auto;
+}
+.members-value{
+    font-size: 50px;
+}
+.fee-row{
+    width: 100%;
+    padding: 5px 10px;
+}
+.search-result-item .fee-name{
+    float: left;
+}
+.search-result-item .fee-value{
+    float: right;
+    background: lightgray;
+    margin-right: 20px;
+    padding: 5px;
+    font-family: monospace;
+}
+.search-result-item input{
+    width: 50px;
+    height: 30px;
+    outline: none;
+    border: solid 1px black;
+    padding: none;
+    margin-left: 60px;
+}
+.search-result-item button{
+    outline: none;
+    border: solid 1px black;
+    background: black;
+    color: white;
+    height: 34px;
+    cursor: pointer;
+}

@@ -1,0 +1,27 @@
+.become-host-cont{
+    position: absolute;
+    left: 50%;
+    top: 200px;
+    transform: translate(-50%, 0);
+    min-width: 700px;
+    width: 60%;
+    text-align: center;
+}
+.become-host-row{
+    margin-bottom: 15px;
+}
+.become-host-cont input{
+    outline: none;
+    border: none;
+    background: lightgray;
+    padding: 5px;
+}
+.become-host-cont button{
+    border: none;
+    padding: 10px;
+    background: black;
+    color: white;
+}
+button:hover{
+    background: #ED1C25;
+}
